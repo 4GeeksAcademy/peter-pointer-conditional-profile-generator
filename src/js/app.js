@@ -33,7 +33,7 @@ function render(variables = {}) {
   document.querySelector("#widget_content").innerHTML = `<div class="widget">
             ${cover}
           <img src="${variables.avatarURL}" class="photo" />
-          <h1>Lucy Boilett</h1>
+          <h1>${variables.name}</h1>
           <h2>Web Developer</h2>
           <h3>Miami, USA</h3>
           <ul class="position-right">
